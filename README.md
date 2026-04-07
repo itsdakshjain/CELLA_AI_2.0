@@ -37,7 +37,7 @@ Upload any document and start asking questions! The AI will provide detailed ans
 ## 📁 Project Structure
 
 ```
-CUBA_AI/
+CELLA_AI_2.0/
 ├── backend/
 │   ├── routes/
 │   │   ├── upload.py      # Document upload & processing
@@ -45,7 +45,7 @@ CUBA_AI/
 │   ├── service/
 │   │   └── utils.py       # RAG services (chunking, embeddings, vector store)
 │   └── main.py            # FastAPI application
-├── frontend/
+├── frontend-new/
 │   ├── src/
 │   │   ├── components/    # React components
 │   │   │   ├── DocumentUpload.js
@@ -71,7 +71,7 @@ CUBA_AI/
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
-cd CUBA_AI
+cd CELLA_AI_2.0
 ```
 
 2. **Set up Backend**
@@ -95,7 +95,7 @@ PINECONE_API_KEY=your_pinecone_api_key_here
 
 4. **Set up Frontend**
 ```bash
-cd frontend
+cd frontend-new
 npm install
 ```
 
@@ -110,7 +110,7 @@ Backend runs on: **http://localhost:8000**
 
 **Terminal 2 - Start Frontend:**
 ```bash
-cd frontend
+cd frontend-new
 npm start
 ```
 Frontend runs on: **http://localhost:3000**
